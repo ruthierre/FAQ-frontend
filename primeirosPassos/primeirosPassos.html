@@ -5,30 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
-  <script src="primeirosPassos.js" defer></script>
   <title>Primeiros Passos</title>
 </head>
-<body>
+<body class="bg-light">
   
   <div class="container-fluid bg-dark p-5">
     <div class="row">
       <div class="col-md-4 align-items-center">
-        <button class="btn btn-dark justify-end" id="home">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#C0C0C0" class="bi bi-house-door-fill" viewBox="0 0 16 16">
-            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
-          </svg>
-        </button>
+        <a href="../index.html">
+          <button class="btn btn-dark justify-end" id="home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#C0C0C0" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+              <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+            </svg>
+          </button>
+        </a>
       </div>
       <div class="col-md-2 offset-md-6">
-        <button class="btn btn-secondary" id="siteEplay">Ir para o site</button>
+        <a href="https://eplay.video/">
+          <button class="btn btn-secondary" id="siteEplay">Ir para o site</button>
+        </a>
       </div>
     </div>
   </div>
   
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <button class="btn-primary"> Primeiros passos</button>
+      <div class="col-md-4 d-none d-lg-block">
+        <div class="h3 pt-4">
+          Categorias
+        </div>
+       <div class="navbar-text">
+        <nav class="navbar ">
+          <div class="container-fluid">
+            <ul class="navbar-nav bg-body-tertiary">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Área de Membros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Construtores de Página</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Primeiros Passos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conta e Cobranças</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Plano e Consumo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Player e Vídeo</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+       </div>
+      </div>
+      
+      <div class="col-8 pt-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                Como funciona o Período de 7 dias de garantia ? 
+              </h5>
+              This is some text within a card body.
+            </div>
+          </div>
       </div>
     </div>
   </div>
