@@ -1,11 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>construtores de Sites</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
+  <title>Construtores de Páginas</title>
 </head>
-<body>
-    <h3>Construtores de Sites</h3>
+<body class="bg-light">
+
+  <div class="container-fluid bg-dark p-5" style="min-width: 375px;">
+    <div class="row">
+      <div class="col-md-4 align-items-center">
+        <a href="../index.html">
+          <button class="btn btn-dark justify-end" id="home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#C0C0C0" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+              <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+            </svg>
+          </button>
+        </a>
+      </div>
+      <div class="col-md-2 offset-md-6 d-none d-lg-block">
+        <a href="https://eplay.video/">
+          <button class="btn btn-secondary" id="siteEplay">Ir para o site</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-white" style="min-width: 375px;">
+    <div class="row py-3 ">
+      <div class="col d-flex justify-content-center gx-2 align-middle">
+        <strong class="pt-1">Artigos em:  </strong>
+        <button disabled="disabled" class="btn btn-outline-primary d-flex justify-content-center mx-4">Construtores de Páginas</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 d-none d-md-block">
+        <div class="h3 pt-4">
+          Categorias
+        </div>
+       <div class="navbar-text">
+        <nav class="navbar ">
+          <div class="container-fluid">
+            <ul class="navbar-nav bg-body-tertiary">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Área de Membros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Construtores de Página</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Primeiros Passos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conta e Cobranças</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Plano e Consumo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Player e Vídeo</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+       </div>
+      </div>
+      
+      
+      <div class="col-8 pt-4 ">
+
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <h5>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                      <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                      <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                    </svg>
+                    Usando a Eplay com WordPress ( Elementor )
+                  </h5>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">  
+                Ao assinar a <strong>ePlay</strong> você possui 7 dias para utilizar a plataforma e se, por algum motivo não gostar, você pode solicitar o reembolso.
+              </div>
+          </div>
+        </div>
+
+        <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwo" aria-expanded="false" aria-controls="flush-collapsetwo">
+                  <h5>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                      <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                      <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                    </svg>
+                    Usando a Eplay com Atomicat
+                  </h5>
+              </button>
+            </h2>
+            <div id="flush-collapsetwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body flush-collapseTwo">  
+                Para pegar o código do seu vídeo e colocar na sua página, você deve acessar “Meus Vídeos”
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                  <h5>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                      <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                      <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                    </svg>
+                    Usando a Eplay com GreatPages
+                  </h5>
+              </button>
+            </h2>
+            <div id="flush-collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body flush-collapse3">  
+                A forma de fazer o upload é bem simples. Basta você clicar em “Meus Vídeos” ...
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                  <h5>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                      <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                      <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                    </svg>
+                    Usando a Eplay com Klickpages
+                  </h5>
+              </button>
+            </h2>
+            <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body flush-collapse4">    
+                <p>
+                  Além de uma Central de Ajuda completa para te ajudar no dia-a-dia, nós temos o chat de atendimento para te atender!
+                </p>
+                <p>
+                  Se preferir, pode entrar em contato conosco via E-mail em "email eplay".
+                </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                    <h5>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                        <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                        <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                      </svg>
+                      Usando a Eplay com Builderall
+                    </h5>
+                </button>
+              </h2>
+              <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body flush-collapse5">    
+                  <p>
+                    Além de uma Central de Ajuda completa para te ajudar no dia-a-dia, nós temos o chat de atendimento para te atender!
+                  </p>
+                  <p>
+                    Se preferir, pode entrar em contato conosco via E-mail em "email eplay".
+                  </p>
+              </div>
+            </div>
+        </div>
+
+        <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                    <h5>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                        <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                        <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                      </svg>
+                      Usando a Eplay com Wix
+                    </h5>
+                </button>
+              </h2>
+              <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body flush-collapse6">    
+                  <p>
+                    Além de uma Central de Ajuda completa para te ajudar no dia-a-dia, nós temos o chat de atendimento para te atender!
+                  </p>
+                  <p>
+                    Se preferir, pode entrar em contato conosco via E-mail em "email eplay".
+                  </p>
+              </div>
+            </div>
+        </div>
+
+        <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                    <h5>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                        <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                        <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                      </svg>
+                      Usando a Eplay com OptimizePress
+                    </h5>
+                </button>
+              </h2>
+              <div id="flush-collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body flush-collapse7">    
+                  <p>
+                    Além de uma Central de Ajuda completa para te ajudar no dia-a-dia, nós temos o chat de atendimento para te atender!
+                  </p>
+                  <p>
+                    Se preferir, pode entrar em contato conosco via E-mail em "email eplay".
+                  </p>
+              </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+
 </body>
 </html>
